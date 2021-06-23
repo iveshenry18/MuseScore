@@ -411,7 +411,7 @@ private:
       void textToDynamic(QString& text) const;
       bool directionToDynamic();
       bool isLikelyTempoText();
-      bool attemptTempoTextCoercion();
+      bool attemptTempoTextCoercion(const Fraction& tick);
       double convertTextToNotes();
       void skipLogCurrElem();
       };
